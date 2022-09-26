@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <title>SignalR Client</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container my-4">
+
+            <div class="border border-light p-3 mb-4 col-6">
+
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="input-group mb-3">
+                        <input id="txtName" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="btn btn-primary" id="btnSend">
+                            <i id="status" class="fa fa-paper-plane"></i>
+                        </button>
+
+                    </div>
+                </div>
+                <label id="message"></label>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/signalr.min.js"></script>
+    <script src="js/index.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+    "name": "signalr.client",
+    "version": "1.0.0",
+    "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://mainarepos.visualstudio.com/maina.repos/_git/SignalR.Client"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@microsoft/signalr": "^6.0.9",
+        "bootstrap": "^5.2.1",
+        "express": "^4.18.1"
+    }
+}
